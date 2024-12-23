@@ -1,0 +1,97 @@
+*{
+    margin: 0 35px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.navbar{
+    background-color: rgb(155, 69, 135);
+    padding: 15px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    color: pink;
+}
+.navlogo{
+    float: left;
+}
+.navlinks{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+.hero{
+    float: left;
+    width: auto;
+    overflow: hidden;
+    height: auto;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+.hero img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: flex;
+    margin-left: 0px;
+    min-width: 1200px;
+    background-color: rgb(54, 54, 54);
+}
+.herotext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.choose{
+    text-align: center;
+}
+.choose-reason{
+    display: inline-block;
+    margin-top: 40px;
+    background-color: rgb(255, 218, 196);
+    padding: 12px 15px;
+    width: 220px;
+    height: 100px;
+    overflow: hidden;
+    text-overflow: initial;
+    white-space: normal;
+    border-radius: 5px;
+}
+.gallery-section{
+    margin-top: 60px;
+    background-color: rgb(255, 226, 231);
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+.gallery-images{
+margin-top: 30px;
+display: inline-block;
+width: 13%;
+}
+.gallery-images img{
+    height: auto;
+    width: 100%;
+    background-color: pink;
+    padding:10px;
+    border-radius: 10px;
+}
+.gallery-images img:hover{
+    transform: scale(1.09);
+    position: relative;
+}
+footer{
+    background-color: pink;
+    padding: 10px 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+}

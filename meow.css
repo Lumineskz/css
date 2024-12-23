@@ -1,0 +1,25 @@
+.main{
+    border: 2px solid red;
+     width: 900px;
+     padding: 10px;
+     margin: 10px;
+}
+.item{
+    border: 1px solid purple;
+    height: 100px;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+}
+.item-1{
+    background-color: lightpink;
+}
+.item-2{
+    background-color: lightblue;
+}
+.item-3{
+    background-color: lightcoral;
+}
+.item-4{
+    background-color: lightgreen;
+}
